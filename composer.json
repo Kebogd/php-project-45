@@ -1,0 +1,19 @@
+{ "name": "hexlet/code", 
+"description": "My first project",
+"License": "MIT",
+ "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kebogd",
+            "email": "batvamail@gmail.com"
+        }
+    ],
+    "require": {},
+    "bin": [
+  	    "bin/brain-games"
+    ]
+}
